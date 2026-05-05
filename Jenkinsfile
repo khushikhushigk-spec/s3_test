@@ -17,7 +17,7 @@ pipeline {
                 ]]) {
                     bat '''
                         aws s3 ls
-                        aws s3 cp s3://testnallangi1234/test/sslrenew C:\\Users\\xxnallan
+                        aws s3 cp s3://etsaw/touch f2.md C:\\Users\\xxnallan
                     '''
                 }
             }
