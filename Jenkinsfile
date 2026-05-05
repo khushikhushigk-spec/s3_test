@@ -13,7 +13,7 @@ pipeline {
             steps {
                 withCredentials([[
                     $class: 'AmazonWebServicesCredentialsBinding',
-                    credentialsId: 'aws-credentials-id'
+                    credentialsId: 'aws_cred'
                 ]]) {
                     bat '''
                         aws s3 ls
