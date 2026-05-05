@@ -17,7 +17,7 @@ pipeline {
                 ]]) {
                     bat '''
                         aws s3 ls
-                        aws s3 cp s3://etsaw/myapp.war f2.md C:
+                        aws s3 cp s3://etsaw/myapp.war f2.md C:\\
                     '''
                 }
             }
